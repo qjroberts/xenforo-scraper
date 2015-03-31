@@ -1,0 +1,33 @@
+{
+  "name": "xenforo-scraper",
+  "version": "1.0.0",
+  "description": "Scrape a single XenForo forum",
+  "main": "xf-scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xenforo",
+    "scraper"
+  ],
+  "homepage": "https://github.com/qjroberts/xenforo-scraper",
+  "bugs": {
+    "url": "https://github.com/qjroberts/xenforo-scraper/issues"
+  },
+  "author": "Quinton Roberts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qjroberts/xenforo-scraper.git"
+  },
+  "engines": {
+    "node": ">=0.10.33"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.14",
+    "cheerio": "^0.18.0",
+    "needle": "^0.8.2",
+    "sqlite3": "^3.0.5"
+  },
+  "devDependencies": {}
+}
