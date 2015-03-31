@@ -1,5 +1,7 @@
-/*eslint-env node */
-/*eslint quotes: [2, "single"], no-underscore-dangle: 0 */
+/**
+ * xenforo-scraper
+ * @description Scrape a single XenForo forum.
+ */
 'use strict';
 
 var path = require('path');
