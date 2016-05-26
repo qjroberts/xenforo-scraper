@@ -311,7 +311,7 @@ XFThread.prototype.scrape = function scrape() {
  * @private
  * @description Persist post data to the database.
  */
-XFPost.prototype._persistData = function _persistData() {
+XFThread.prototype._persistData = function _persistData() {
   // Insert the post data into sqlite3
   var sql = 'INSERT INTO threads (title, url) VALUES ($title, $url);';
 
